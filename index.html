@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FreeFire World | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #38bdf8;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #f1f5f9;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #38bdf8;
+            border-bottom: 2px solid #38bdf8;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #334155;
+            margin-bottom: 15px;
+        }
+
+        .skills ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+
+        .skills li {
+            background: #1e293b;
+            padding: 10px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+            color: #facc15;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            text-decoration: none;
+            color: #0f172a;
+            background: #38bdf8;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e293b;
+            font-size: 14px;
+        }
+
+        /* Mobile Friendly */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+                font-size: 13px;
+            }
+
+            .about img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FreeFire World</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section id="about" class="about">
+        <h2>About</h2>
+        <img src="https://via.placeholder.com/150" alt="Your Photo Placeholder">
+        <p>
+            Hello! Welcome to FreeFire World. This is a modern portfolio website.
+            Add your professional summary here from your resume. 
+            Describe your background, passion, and career goals.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Web Design</li>
+            <li>Digital Marketing</li>
+            <li>Content Creation</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Job Title / Role</h3>
+            <p><strong>Company Name</strong> | 2023 - Present</p>
+            <p>Describe your responsibilities and achievements here.</p>
+        </div>
+
+        <div class="card">
+            <h3>Previous Role</h3>
+            <p><strong>Company Name</strong> | 2021 - 2023</p>
+            <p>Describe your responsibilities and achievements here.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Project Name</h3>
+            <p>Short description of your project and technologies used.</p>
+        </div>
+
+        <div class="card">
+            <h3>Another Project</h3>
+            <p>Short description of your project and technologies used.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +92-XXXXXXXXXX</p>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Portfolio</a>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 FreeFire World. All Rights Reserved.
+</footer>
+
+</body>
+</html>
